@@ -1,0 +1,8 @@
+[Unit]
+Description = Launch checkrain on launch
+ 
+[Service]
+ExecStart=/opt/microrain/Xcheckra1n
+ 
+[Install]
+WantedBy=multi-user.target
