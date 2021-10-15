@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo mkdir -p /opt/microrain
 sudo chmod 777 /opt/microrain
-wget https://assets.checkra.in/downloads/linux/cli/arm64/43019a573ab1c866fe88edb1f2dd5bb38b0caf135533ee0d6e3ed720256b89d0/checkra1n -O /opt/microrain/checkra1n
+wget https://assets.checkra.in/downloads/linux/cli/arm/ff05dfb32834c03b88346509aec5ca9916db98de3019adf4201a2a6efe31e9f5/checkra1n -O /opt/microrain/checkra1n
 sudo chmod +x /opt/microrain/checkra1n
 echo "Microrain downloaded all dependencies, setting up..."	
 sudo cp checkra1n.service /etc/systemd/system
