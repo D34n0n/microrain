@@ -1,5 +1,6 @@
 # microrain
 Microrain is a project to make dongle with a function of jailbreaking iOS devices with microcontrollers like Orange Pi / Raspberry Pi
+
 Tested on Orange Pi Lite (ARM32, 4xCortex-A70, 512MB RAM) with ARMbian distro
 
 ## Installation
@@ -15,6 +16,6 @@ Currently, microrain is only available for ARM32. To install, run:
 ```
 ./install.sh
 ```
-Just Plug In Your Device and Enter DFU mode.
+After all of the steps of installation, you can plug in your iOS-device, enter DFU and it'll install jailbreak.
 
-Profit.
+Pull requests and bug reports are always welcome!
